@@ -21,6 +21,11 @@
     font-size: 16px;
 }
 
+a{
+    color: black;
+    text-decoration: none;
+}
+
 .logo{
     width: 40px;
     height: 40px;
@@ -41,6 +46,7 @@ button{
     border: none;
     border-radius: 25px;
     color: white;
+    cursor: pointer;
 }
 
 .menu , .actions{
