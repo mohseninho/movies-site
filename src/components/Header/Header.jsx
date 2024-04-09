@@ -22,7 +22,7 @@ function Header(){
                         <li>پخش آنلاین</li>
                     </Link>
                     <Link to="/subscribe">
-                        <li>خرید اشتراک</li>
+                        <li style={{borderRadius:"25px", width:"100px" , height:"40px" , display:"flex" , justifyContent:"center" , alignItems:"center", backgroundColor: "#EB8307"}}>خرید اشتراک</li>
                     </Link>
                 </ul>
             </div>

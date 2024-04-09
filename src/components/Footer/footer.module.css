@@ -4,5 +4,65 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     background-color: dimgray;
+    font-size: 16px;
+    padding: 0 200px;
+    position: relative;
+}
+
+.actions{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+}
+
+.menu ul li{
+    border-bottom: 2px solid dimgray;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.menu ul li:hover{
+    border-bottom: 2px solid #EB8307;
+}
+
+.menu , .links{
+    display: flex;
+}
+
+.links{
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.menu{
+    justify-content: center;
+    align-items: center;
+}
+
+.icons{
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons>*{
+    margin-right: 10px;
+}
+
+.copyright{
+    position: absolute;
+    bottom: 20px;
+    margin: 0 auto;
 }
