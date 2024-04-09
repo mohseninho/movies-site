@@ -1,0 +1,90 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    font-size: 16px;
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper {
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    top: calc(50% - 150px);
+    right: 50px;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+    padding: 20px;
+    border-radius: 25px;
+    z-index: 999;
+}
+
+.slideWrapper {
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide {
+    width: 90%;
+    height: 90%;
+    border-radius: 15px;
+    transition: 0.4s;
+}
+
+.currentSlide {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    transition: 0.4s;
+}
+
+
+.effect {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    /* background-color: aquamarine; */
+}
+
+.movieInfo{
+    width: 260px;
+    height: 100px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    background: linear-gradient(to right , rgba(0,0,0,0.8) ,rgba(0,0,0,0.2));
+    border-radius: 25px;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    z-index: 999;
+    color: white;
+    text-transform: uppercase;
+}
+
+.movieName{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.imdb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+.imdbIcon{
+    margin-right: 10px;
+    font-size: 1.8em;
+}

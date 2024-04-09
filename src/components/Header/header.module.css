@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "yekan";
+    src: url("../../assets/fonts/BYekan+.ttf");
+}
+
+*{
+    font-family: "yekan";
+}
+
+.container{
+    width: 100%;
+    height: 80px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    flex-direction: row-reverse;
+    border-top: 4px solid #EB8307;
+    padding: 0 80px;
+    font-size: 16px;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    margin-left: 25px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 25px;
+    font-size: 1em;
+}
+
+button{
+    border: none;
+    border-radius: 25px;
+    color: white;
+}
+
+.menu , .actions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.searchBtn{
+    background-color: #07080A;
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.loginBtn{
+    background-color: #82490D;
+    width: 120px;
+    height: 40px;
+}
