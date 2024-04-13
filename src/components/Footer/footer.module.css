@@ -51,6 +51,7 @@
 }
 
 .icons{
+    margin-top: 5px;
     font-size: 2em;
     display: flex;
     justify-content: center;
@@ -59,6 +60,7 @@
 
 .icons>*{
     margin-right: 10px;
+    cursor: pointer;
 }
 
 .copyright{
