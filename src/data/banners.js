@@ -18,20 +18,20 @@ export const data = [
         imdb : 7.5,
         name : "ice age 4",
         url: "https://www.heyuguys.com/images/2011/10/ice-age-4-poster.jpg",
-        coverUrl : "https://gbaz.ir/ufile/admin/banner-7718-7470.jpg"
+        coverUrl : "https://images.bauerhosting.com/legacy/empire-tmdb/films/57800/images/tZGKKeWGejt63jiSdi7MTAjCFE9.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80"
     },
     {
         id : 3,
         imdb : 7.5,
         name : "ice age 4",
         url: "https://www.heyuguys.com/images/2011/10/ice-age-4-poster.jpg",
-        coverUrl : "https://gbaz.ir/ufile/admin/banner-7718-7470.jpg"
+        coverUrl : "https://images.bauerhosting.com/legacy/empire-tmdb/films/57800/images/tZGKKeWGejt63jiSdi7MTAjCFE9.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80"
     },
     {
         id : 4,
         imdb : 7.5,
         name : "ice age 4",
         url: "https://www.heyuguys.com/images/2011/10/ice-age-4-poster.jpg",
-        coverUrl : "https://gbaz.ir/ufile/admin/banner-7718-7470.jpg"
+        coverUrl : "https://images.bauerhosting.com/legacy/empire-tmdb/films/57800/images/tZGKKeWGejt63jiSdi7MTAjCFE9.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80"
     }
 ]

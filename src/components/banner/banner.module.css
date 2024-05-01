@@ -19,7 +19,7 @@
     background: linear-gradient(to left, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
     padding: 20px;
     border-radius: 25px;
-    z-index: 999;
+    z-index: 3;
 }
 
 .slideWrapper {
@@ -48,7 +48,7 @@
     background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
     width: 100%;
     height: 100%;
-    z-index: 999;
+    z-index: 2;
     position: absolute;
     top: 0;
     /* background-color: aquamarine; */
@@ -67,7 +67,7 @@
     position: absolute;
     bottom: 40px;
     left: 40px;
-    z-index: 999;
+    z-index: 3;
     color: white;
     text-transform: uppercase;
 }

@@ -41,7 +41,7 @@ export const data = [
         date : "5/4/2020",
         desc : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quos ut quod error vero reiciendis dolorum quia saepe suscipit reprehenderit?",
         url: "https://www.heyuguys.com/images/2011/10/ice-age-4-poster.jpg",
-        coverUrl : "https://gbaz.ir/ufile/admin/banner-7718-7470.jpg"
+        coverUrl : "https://i0.wp.com/www.heyuguys.com/images/2012/07/Ice-Age-Continental-Drift-poster-2.jpg?ssl=1"
     },
     {
         id : 4,
@@ -52,7 +52,7 @@ export const data = [
         date : "10/10/2022",
         desc : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quos ut quod error vero reiciendis dolorum quia saepe suscipit reprehenderit?",
         url: "https://www.heyuguys.com/images/2011/10/ice-age-4-poster.jpg",
-        coverUrl : "https://gbaz.ir/ufile/admin/banner-7718-7470.jpg"
+        coverUrl : "https://i0.wp.com/www.heyuguys.com/images/2012/07/Ice-Age-Continental-Drift-poster-2.jpg?ssl=1"
     },
     {
         id : 2,
@@ -63,7 +63,7 @@ export const data = [
         date : "1/1/2020",
         desc : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quos ut quod error vero reiciendis dolorum quia saepe suscipit reprehenderit?",
         url: "https://www.heyuguys.com/images/2011/10/ice-age-4-poster.jpg",
-        coverUrl : "https://gbaz.ir/ufile/admin/banner-7718-7470.jpg"
+        coverUrl : "https://i0.wp.com/www.heyuguys.com/images/2012/07/Ice-Age-Continental-Drift-poster-2.jpg?ssl=1"
     },
     {
         id : 3,
@@ -74,7 +74,7 @@ export const data = [
         date : "12/2/2013",
         desc : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quos ut quod error vero reiciendis dolorum quia saepe suscipit reprehenderit?",
         url: "https://www.heyuguys.com/images/2011/10/ice-age-4-poster.jpg",
-        coverUrl : "https://gbaz.ir/ufile/admin/banner-7718-7470.jpg"
+        coverUrl : "https://i0.wp.com/www.heyuguys.com/images/2012/07/Ice-Age-Continental-Drift-poster-2.jpg?ssl=1"
     },
     {
         id : 4,
@@ -85,6 +85,6 @@ export const data = [
         date : "12/2/2003",
         desc : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quos ut quod error vero reiciendis dolorum quia saepe suscipit reprehenderit?",
         url: "https://www.heyuguys.com/images/2011/10/ice-age-4-poster.jpg",
-        coverUrl : "https://gbaz.ir/ufile/admin/banner-7718-7470.jpg"
+        coverUrl : "https://i0.wp.com/www.heyuguys.com/images/2012/07/Ice-Age-Continental-Drift-poster-2.jpg?ssl=1"
     }
 ]
