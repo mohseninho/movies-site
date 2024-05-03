@@ -1,16 +1,22 @@
-import { Link } from "react-router-dom";
 import style from "./movie.module.css"
-function Movie(props){
-    return(
-        <Link to={`/movie/${props.data.id}`}>
-            <div className={style.container}>
-                <img className={style.moviePoster} src={props.data.url} alt="logo" />
-                <div className={style.movieInfo}>
-                    <p className={style.movieName}>{props.data.name}</p>
-                    <p className={style.movieYear}>{props.data.year}</p>
+function Movie(props) {
+    return (
+        <div className={style.container}>
+            <div className={style.posterWrapper}>
+                <img className={style.poster} src={props.data.url} alt="logo" />
+                <div className={style.genreWrapper}>
+                    {
+                        props.data.genre.map((_genre, _idx) => (
+                            <div className={style.genre} key={_idx}>{_genre}</div>
+                        ))
+                    }
                 </div>
             </div>
-        </Link>
+            <br />
+            <div className={style.movieInfo}>
+                <p className={style.info}>{props.data.name}<br />{props.data.year}</p>
+            </div>
+        </div>
     );
 }
 

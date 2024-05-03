@@ -1,6 +1,6 @@
 import Header from "../../components/Header/Header";
 import Banner from "../../components/banner/Banner";
-import HotMoviesWrapper from "../../components/MoviesWrapper/MoviesWrapper";
+import MoviesWrapper from "../../components/MoviesWrapper/MoviesWrapper";
 import Footer from "../../components/Footer/Footer";
 
 function Home(){
@@ -8,8 +8,8 @@ function Home(){
         <>
             <Header />
             <Banner />
-            <HotMoviesWrapper category = "hot movies" sort="views" limit="6"/>
-            <HotMoviesWrapper category = "new" sort="date" limit="6"/>
+            <MoviesWrapper category = "hot movies" sort="views"/>
+            <MoviesWrapper category = "new" sort="date"/>
             <Footer />
         </>
     );

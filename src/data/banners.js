@@ -22,16 +22,9 @@ export const data = [
     },
     {
         id : 3,
-        imdb : 7.5,
-        name : "ice age 4",
-        url: "https://www.heyuguys.com/images/2011/10/ice-age-4-poster.jpg",
-        coverUrl : "https://images.bauerhosting.com/legacy/empire-tmdb/films/57800/images/tZGKKeWGejt63jiSdi7MTAjCFE9.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80"
-    },
-    {
-        id : 4,
-        imdb : 7.5,
-        name : "ice age 4",
-        url: "https://www.heyuguys.com/images/2011/10/ice-age-4-poster.jpg",
-        coverUrl : "https://images.bauerhosting.com/legacy/empire-tmdb/films/57800/images/tZGKKeWGejt63jiSdi7MTAjCFE9.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80"
+        imdb : 9.5,
+        name : "oppenheimer",
+        url: "https://upload.wikimedia.org/wikipedia/en/4/4a/Oppenheimer_%28film%29.jpg",
+        coverUrl : "https://images.bauerhosting.com/empire/2022/07/oppenheimer-poster-crop.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=undefined&q=80"
     }
 ]

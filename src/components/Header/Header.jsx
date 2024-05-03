@@ -4,12 +4,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 
-function Header(){
-    return(
+function Header() {
+    return (
         <div className={style.container}>
             <div className={style.menu}>
                 <Link to="/">
-                    <img className={style.logo} src={logo} alt="logo" />            
+                    <img className={style.logo} src={logo} alt="logo" />
                 </Link>
                 <ul>
                     <Link to="/categories">
@@ -22,7 +22,7 @@ function Header(){
                         <li>پخش آنلاین</li>
                     </Link>
                     <Link to="/subscribe">
-                        <li style={{borderRadius:"25px", width:"100px" , height:"40px" , display:"flex" , justifyContent:"center" , alignItems:"center", backgroundColor: "#EB8307" , color:"white"}}>خرید اشتراک</li>
+                        <li style={{ borderRadius: "25px", width: "100px", height: "40px", display: "flex", justifyContent: "center", alignItems: "center", backgroundColor: "#EB8307", color: "white" }}>خرید اشتراک</li>
                     </Link>
                 </ul>
             </div>

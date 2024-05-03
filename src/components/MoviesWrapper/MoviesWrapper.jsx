@@ -1,29 +1,30 @@
 import style from "./moviesWrapper.module.css"
-import {data} from "../../data/movies"
+import { data } from "../../data/movies"
 import { useEffect, useState } from "react";
 import Movie from "../Movie/Movie";
 import Loading from "../loading/Loading";
-function HotMoviesWrapper(props){
+import { Link } from "react-router-dom";
+function MoviesWrapper(props) {
 
-    const [movies , setMovies] = useState([]);
-    const [loading , setLoading] = useState(false);
+    const [movies, setMovies] = useState([]);
+    const [loading, setLoading] = useState(false);
 
-    useEffect(()=>{
+    useEffect(() => {
         setLoading(true);
         setMovies(data);
         setLoading(false);
-    },[])
+    }, [])
 
-    function sortBy(by){
-        switch(by){
+    function sortBy(by) {
+        switch (by) {
             case "views":
-                return((a,b)=>(b.views) - (a.views));
+                return ((a, b) => (b.views) - (a.views));
             case "date":
-                return((a,b)=>new Date(b.date) - new Date(a.date));
+                return ((a, b) => new Date(b.date) - new Date(a.date));
         }
     }
 
-    return(
+    return (
         <div className={style.container}>
             <div className={style.wrapper}>
                 <p className={style.categoryName}>{props.category}</p>
@@ -31,8 +32,10 @@ function HotMoviesWrapper(props){
                     loading ? (<Loading />) : (
                         <div className={style.movies}>
                             {
-                                movies.sort(sortBy(props.sort)).slice(0,props.limit).map((movie , idx)=>(
-                                    <Movie key={idx} data={movie} />
+                                movies.sort(sortBy(props.sort)).slice(0, props.limit).map((movie, idx) => (
+                                    <Link to={`/movie/${movie.id}`} key={idx}>
+                                        <Movie data={movie} />
+                                    </Link>
                                 ))
                             }
                         </div>
@@ -44,4 +47,4 @@ function HotMoviesWrapper(props){
     );
 }
 
-export default HotMoviesWrapper;
+export default MoviesWrapper;
